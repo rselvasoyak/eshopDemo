@@ -7,7 +7,10 @@
 // pastel blue: #d3f0f9 
 // white: #fff; 
 
-
+@use "./partials/variables" as*;
+@use './partials/setup';
+@use "./partials/typography";
+@use "./partials/baseStyle";
 
 // HEADINGS:
 // h1: 28px;
@@ -15,3 +18,7 @@
 // h3: 54px;
 // h4: 34px;
 // h5: 14px;
+
+body {
+    background-color: red;
+}
