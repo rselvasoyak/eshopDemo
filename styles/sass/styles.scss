@@ -9,6 +9,9 @@
 
 @use "./partials/variables" as*;
 @use './partials/setup';
+@use "./partials/footer";
+@use "./partials/header";
+@use "./partials/navBar";
 @use "./partials/typography";
 @use "./partials/baseStyle";
 @use "./partials/sections";
@@ -21,6 +24,6 @@
 // h4: 34px;
 // h5: 14px;
 
-body {
-    background-color: red;
-}
+// body {
+//     background-color: red;
+// }
