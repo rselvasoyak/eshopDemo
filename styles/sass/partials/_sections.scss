@@ -3,12 +3,11 @@
 .categoryGallery {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     justify-content: center;
     align-items: center;
-    .item {
+    width: 100%;
+    .items {
         flex-basis: 40%;
-        // background-color: papayawhip;
         padding: 45px;
         margin: 50px 25px 25px;
         border-radius: 10%;
@@ -16,26 +15,53 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        img{
+        text-align: center;
+        img { 
             max-width: 100%;
             border-radius: 10%;
             margin-bottom: 20px;
         }
-        &:hover, &:focus{
-            // border: 10px pink solid;
+        &:hover {
             transform: scale(0.95);
         }
+
+        &:focus {
+            transform: scale(0.95);
+        }
+   
     }
-    .itemOne{
-        background-color: $primary;
+    .itemOne {
+        background-color: $quinary;
     }
     .itemTwo {
-        background-color: $primary;
+        background-color: $secondary;
     }
-    .itemThree{
-        background-color: $primary;
+    .itemThree {
+        background-color: $tertiary;
     }
-    .itemFour{
-        background-color: $primary;
+    .itemFour {
+        background-color: $quaternary;
     }
+    
 }
+
+  .play {
+    background-image: url(../assets/background-image.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  
+    .playContainer {
+      max-width: 650px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 70px 45px;
+      border: 24px solid $secondary;
+      background-color: $solidWhite;
+    }
+  }
+  
